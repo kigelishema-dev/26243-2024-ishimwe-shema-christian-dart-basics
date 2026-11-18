@@ -1,6 +1,6 @@
-// Student: Christian Ishimwe Shema
-// Reg no: 26243/2024
-const String regNo = 'YOUR_FULL_REGISTRATION_NUMBER';
+// Student: <ishimwe christian shema>
+// Reg no: <26243/2024>
+const String regNo = '26243';
 final int d = int.parse(regNo[regNo.length - 1]);
 final int t = int.parse(regNo.substring(regNo.length - 2));
 
