@@ -3,8 +3,11 @@
 const String regNo = '26243';
 final int d = int.parse(regNo[regNo.length - 1]);
 final int t = int.parse(regNo.substring(regNo.length - 2));
+// prediction
+// early week because day = 2
+// if i change day to =1   it will have error because it does not have what to print
 void main() {
-int day = 2;
+int day = 1;
 switch (day) {
 case 1:
 case 2:

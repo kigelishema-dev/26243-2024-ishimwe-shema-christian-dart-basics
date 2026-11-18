@@ -3,6 +3,10 @@
 const String regNo = '26243';
 final int d = int.parse(regNo[regNo.length - 1]);
 final int t = int.parse(regNo.substring(regNo.length - 2));
+//prediction
+//0
+//2
+//0
 void main() {
 int x = 3; 
 String result = '';
